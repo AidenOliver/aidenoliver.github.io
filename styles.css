@@ -1,0 +1,261 @@
+.navbar-dark {
+    background-color: lightseagreen;
+}
+
+canvas {
+    width: 650px;
+    height: 450px;
+}
+
+
+
+.navbar-brand {
+    font-size: 28px;
+}
+
+body {    
+    background: floralwhite;
+    z-index: 0;
+}
+
+.navbar-nav {
+    font-size: 20px;
+}
+
+.dates {
+    padding-left: 16px;
+}
+
+.nav-item {
+    padding: 0px 15px 0px 15px;
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .4s;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+    transition: width .4s;
+}
+
+.jumbotron {
+    padding: 70px 30px 35px 30px;
+    margin: 0px auto;
+    background: lightseagreen;
+    color: floralwhite;
+}
+
+.header {
+    padding: 70px 30px 35px 30px;
+    margin: 0px auto;
+    background: lightseagreen;
+    color: floralwhite;
+}
+
+.header2 {
+    padding: 70px 30px 59px 30px;
+    margin: 0px auto;
+    background: lightseagreen;
+    color: floralwhite;
+}
+
+h3 {
+    margin-top: 26px;
+    font-size: 40px;
+}
+
+.entries {
+    padding-bottom: 25px;
+}
+
+h2 {
+    margin-top: 35px;
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 75px 0px 75px 0px;
+    border-bottom: 1px ridge;
+    min-height: 100px;
+}
+
+.row-content2 {
+    margin: 0px auto;
+    padding: 50px 0px 60px 0px;
+    min-height: 100px;
+}
+
+.frame {
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+}
+
+.frame img {
+    height: 270px;
+    width: 270px;
+    transition: all 1s ease;
+}
+
+.frame img:hover {
+    height: 300px;
+    width: 260px; 
+}
+
+.footer {
+    background-color: lightseagreen;
+    margin: 0px auto;
+    padding: 30px 0px 20px 0px;
+}
+
+.frame2 {
+    background-color: #9575cd;
+    width: 555px;
+    height: 350px;
+    transition: all .5s ease;
+    border-color: lightseagreen;
+}
+
+.frame2:hover {
+    border: 10px lightseagreen ridge;
+}
+
+.frame2 img {
+    width: 200px;
+    height: 195px;
+    margin: 60px 0px 0px 150px;
+}
+
+.frame3 {
+    background-color: black;
+    width: 555px;
+    height: 350px;
+    transition: all .5s ease;
+    border-color: lightseagreen;
+}
+
+.frame3:hover {
+    border: 10px lightseagreen ridge;
+}
+
+.frame3 img {
+    width: 200px;
+    height: 100px;
+    margin: 90px 0px 0px 150px;
+}
+
+.frame4 {
+    background-color: #343233;
+    width: 555px;
+    height: 350px;
+    transition: all .5s ease;
+    border-color: lightseagreen;
+}
+
+.frame4:hover {
+    border: 10px lightseagreen ridge;
+}
+
+.frame4 img {
+    width: 200px;
+    height: 100px;
+    margin: 100px 0px 0px 155px;
+}
+
+.social1 {
+    font-size: 20px;
+}
+
+#carousel2 {
+    height: 370px;
+}
+
+#carousel2 img {
+    min-height: 370px;
+}
+
+.carousel-item {
+    height: 580px;
+}
+
+.carousel-item img {
+    min-height: 580px;
+}
+
+@media screen and (max-width: 768px) {
+    .frame2 {
+        background-color: #9575cd;
+        width: 300px;
+        height: 175px;
+    }
+    
+    .frame2 img {
+        width: 100px;
+        height: 100px;
+        margin: 37px 0px 0px 85px;
+    }
+
+
+    .frame3 {
+        background-color: black;
+        width: 300px;
+        height: 175px;
+    }
+    
+    .frame3 img {
+        width: 100px;
+        height: 70px;
+        margin: 40px 0px 0px 80px;
+    }
+
+
+    .frame4 {
+        background-color: #343233;
+        width: 300px;
+        height: 175px;
+        
+    }
+    
+    .frame4 img {
+        width: 120px;
+        height: 70px;
+        margin: 37px 0px 0px 75px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    #carousel2 {
+        height: 190px;
+    }
+    
+    #carousel2 img {  
+        min-height: 190px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
